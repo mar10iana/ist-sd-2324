@@ -30,11 +30,3 @@ An alternative solution where the service is replicated across three servers (A,
 
 - **2.1**: Develop *read* and *put* operations without supporting *take* initially.
 - **2.2**: Implement the *take* operation as per the Xu/Liskov algorithm, including the necessary code for its two-step execution.
-
-### Variant 3: State Machine Replication
-
-Development of a variant based on the State Machine Replication approach as an alternative to the Xu/Liskov algorithm.
-
-#### Step:
-
-- **3.1**: Clients invoke *put* or *take* operations by first contacting a remote service for a unique sequence number, then sending the request to TupleSpace servers along with this number.
