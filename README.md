@@ -1,6 +1,6 @@
 # TupleSpaces - Distributed Systems Project 2023/2024
 
-**Achievement**: This project was awarded a grade of  out of 20.
+**Achievement**: This project was awarded a grade of 17 out of 20.
 
 ## Introduction
 
